@@ -6,3 +6,4 @@ CREATE_USER_PATH = "/api/v1/users/"
 
 # Endpoint para creación de un kit
 KITS_PATH = "/api/v1/kits/"
+
