@@ -1,5 +1,3 @@
-
-
 import configuration
 import pytest
 import requests
@@ -51,6 +49,7 @@ def test_missing_parameter():
 # PRUEBA 9 Error. El tipo del parámetro name es Integer
 def test_parameter_type_mismatch():
     negative_assert_code_400(data.different_parameter)
+
 
 
 
